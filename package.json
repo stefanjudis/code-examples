@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "live-server ./examples"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/stefanjudis/code-examples/issues"
   },
-  "homepage": "https://github.com/stefanjudis/code-examples#readme"
+  "homepage": "https://github.com/stefanjudis/code-examples#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }

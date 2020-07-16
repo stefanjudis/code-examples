@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /* style custom elements that are
+      loading and not defined yet */
+      :not(:defined) {
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- use some custom elements -->
+    <some-elem>Hello world!</some-elem>
+    <script>
+      class SomeElem extends HTMLElement {}
+      customElements.define('some-elem', SomeElem);
+      // nice!!!
+    </script>
+  </body>
+</html>
